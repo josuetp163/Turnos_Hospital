@@ -1,0 +1,5 @@
+mikemane|Eduardo,Cruz,35,MASCULINO,Fiebre,0|3
+mikemane|Peter,Parker,12,MASCULINO,Insomnio,5|3
+mikemane|Josue,Tomala,20,MASCULINO,Insomnio,5|2
+mikemane|Josue,Tomala,20,MASCULINO,Insomnio,5|2
+mikemane|Tommy,Beltran,19,MASCULINO,Insomnio,5|1

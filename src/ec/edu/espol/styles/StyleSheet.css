@@ -1,0 +1,207 @@
+
+.root{
+    -fx-background-color: #f4f6ff;
+}
+VBox{
+    -fx-alignment: top-left;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+}
+
+HBox{
+    -fx-alignment: top-left;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+}
+
+Button {
+    -fx-min-width: 150;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #2E9C9C 0%, #168C8C 100%),
+            #2E9C9C,
+            #77D5D5,
+            radial-gradient(center 50% 50%, radius 100%, #77D5D5, #4EBABA);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+Button:hover{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #2E9C9C 0%, #168C8C 100%),
+            #2E9C9C,
+            #77D5D5,
+            radial-gradient(center 50% 50%, radius 100%, #4EBABA, #2E9C9C);
+}
+
+Button:pressed{
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+Label{
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 35;
+    -fx-text-fill: #4EBABA;
+}
+
+#lblPaciente,#lblHora{
+    -fx-font-size: 50;
+}
+
+#lblHora{
+    -fx-text-alignment: left;
+}
+
+
+.text-field, .password-field {
+    -fx-alignment: center;
+    -fx-padding: 5 5 5 5;
+    -fx-border-radius: 5;
+    -fx-background-color: #ADE3E3 , #DEF7F7 , #DEF7F7;
+    -fx-border-color: #ADE3E3;
+    -fx-alignment: top-left;
+}
+
+.text-field:hover, .password-field:hover {
+    -fx-background-color: #DEF7F7 , #DEF7F7 , white;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-background-color: #ADE3E3 , #DEF7F7 , white, white;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+    -fx-text-alignment: justify;
+    -fx-alignment: top-left;
+}
+
+#txtReceta,#txtDiagnostico {
+    -fx-alignment: center;
+    -fx-pref-width: 500;
+    -fx-pref-height: 600;
+    -fx-padding: 5 5 5 5;
+    -fx-border-radius: 5;
+    -fx-background-color: #ADE3E3 , #DEF7F7 , #DEF7F7;
+    -fx-border-color: black;
+    -fx-alignment: top-left;
+}
+#txtReceta:hover,#txtDiagnostico:hover {
+    -fx-background-color: #DEF7F7 , #DEF7F7 , white;
+}
+
+#txtReceta:focused,#txtDiagnostico:focused{
+    -fx-background-color: #ADE3E3 , #DEF7F7 , white, white;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+    -fx-text-alignment: justify;
+    -fx-alignment: top-left;
+}
+
+
+BorderPane{
+    -fx-alignment: top-center;
+    -fx-padding: 20;
+}
+
+#lblNombreMedico,#lblPuesto{
+    -fx-font-size: 40;
+    -fx-padding: 30;
+}
+
+.combo-box .list-cell{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+}
+
+.combo-box-popup .list-view
+{
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover
+{
+    -fx-background-color: #168C8C;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+    -fx-background-color: #77D5D5;
+    -fx-text-fill: white;
+}
+.combo-box-base
+{
+    -fx-pref-width: 150;
+    -fx-border-radius: 5;
+    -fx-background-color: #ADE3E3 , #DEF7F7 , #DEF7F7;
+    -fx-border-color: #ADE3E3;
+}
+
+.combo-box-base:focused {
+    -fx-background-color: #ADE3E3 , #DEF7F7 , white, white;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.combo-box-base:hover{
+    -fx-background-color: #DEF7F7 , #DEF7F7 , white, white;
+}
+
+#turno,#puesto{
+    -fx-font-size: 50;
+    -fx-pref-width: 350;
+    -fx-pref-height: 65;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+#turno{
+    -fx-background-color: #2E9C9C;
+}
+
+#puesto{
+    -fx-background-color: #4EBABA;
+}
+
+#box-turnos{
+    -fx-padding: 10;
+    -fx-border-insets: 2;
+    -fx-alignment: center;
+}
+
+.dialog-pane{
+    -fx-background-color: #77D5D5;
+}
+
+.dialog-pane > .content.label{
+    -fx-font-size: 30;
+    -fx-text-fill: white;
+}
+.dialog-pane .button{
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.dialog-pane > .button-bar > .container{
+    -fx-alignment: center;
+}
+
+#mensaje {
+    -fx-font-size : 28;
+}
+
+
+
+
+
+

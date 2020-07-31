@@ -1,0 +1,4 @@
+Medico: Michael Arce | Paciente: Tommy Beltran | Fecha: 2020-07-20 | Hora: 12h15 | Diagnostico: hkfjaskdf | Receta: asdfasdfa
+Medico: Michael Arce | Paciente: Josue Tomala | Fecha: 2020-07-20 | Hora: 12h17 | Diagnostico: asdfasd | Receta: asdfasdf
+Medico: Michael Arce | Paciente: Peter Parker | Fecha: 2020-07-20 | Hora: 12h17 | Diagnostico: sadfasdf | Receta: asdfasdf
+Medico: Michael Arce | Paciente: Eduardo Cruz | Fecha: 2020-07-20 | Hora: 12h18 | Diagnostico: asdfasdf | Receta: asdfasdf

@@ -1,0 +1,11 @@
+Vómito|1
+Fiebre|0
+Resfrio|3
+Congestión nasal|3
+Apnea|2
+Tos|4
+Insomnio|5
+Disnea|0
+Diarrea|1
+Escalofríos|2
+Dolor de cabeza|4

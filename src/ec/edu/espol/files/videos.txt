@@ -1,0 +1,3 @@
+patricio-src/ec/edu/espol/media/patricio.mp4-75000
+patricioExplota-src/ec/edu/espol/media/patricioExplota.mp4-23000
+patricioBilletera-src/ec/edu/espol/media/patricioBilletera.mp4-97000
